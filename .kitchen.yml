@@ -1,0 +1,15 @@
+---
+driver:
+  name: vagrant
+
+platforms:
+  [...]
+
+provisioner:
+  [...]
+
+suites:
+  - name: default
+    [...]
+    add_vagrant_disk: true
+    vagrant_disk_size: 5
